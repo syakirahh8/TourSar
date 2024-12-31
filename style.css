@@ -796,6 +796,12 @@ button {
 /* end popular */
 
 /* category */
+.header h1 {
+  font-size: 2.5em;
+  color: var(--primary);
+  padding: 15px 30px;
+  margin-bottom: 2rem;
+}
 
 .container-ctg {
   display: flex;
@@ -810,6 +816,7 @@ button {
   overflow: hidden;
   position: relative; 
   box-shadow: 0 4px 8px rgba(120, 78, 78, 0.1);
+  background-color: #fff;
   transition: transform 0.3s ease;
   text-align: center;
   transform: scale(0.8);
@@ -1406,4 +1413,3 @@ footer{
   }
 }
 /* end footer */
-
